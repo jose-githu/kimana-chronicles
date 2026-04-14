@@ -1,0 +1,15 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm create vite@latest kimana-chronicles --template react
+7 verbose argv "create" "vite@latest" "kimana-chronicles" "--" "--template" "react"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-14T07_53_04_557Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-14T07_53_04_557Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1060634624 maxSize:265158656 maxEntrySize:132579328
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 848ms (cache revalidated)
+14 silly packumentCache heap:1060634624 maxSize:265158656 maxEntrySize:132579328
