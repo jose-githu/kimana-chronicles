@@ -1,0 +1,104 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.12.1
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install react-router-dom
+7 verbose argv "install" "react-router-dom"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-04-14T19_39_11_259Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-04-14T19_39_11_259Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:1060634624 maxSize:265158656 maxEntrySize:132579328
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@*
+15 silly packumentCache full:https://registry.npmjs.org/react-router-dom cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react-router-dom 2529ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react-router-dom set size:undefined disposed:false
+18 silly fetch manifest react@>=18
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 1701ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+22 silly fetch manifest react-dom@>=18
+23 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/react-dom 1802ms (cache updated)
+25 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+26 silly placeDep ROOT react-router-dom@7.14.1 OK for:  want: *
+27 silly placeDep ROOT react@19.2.5 OK for: react-router-dom@7.14.1 want: >=18
+28 silly placeDep ROOT react-dom@19.2.5 OK for: react-router-dom@7.14.1 want: >=18
+29 silly fetch manifest react-router@7.14.1
+30 silly packumentCache full:https://registry.npmjs.org/react-router cache-miss
+31 silly fetch manifest scheduler@^0.27.0
+32 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/react-router 1114ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/react-router set size:undefined disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/scheduler 2380ms (cache updated)
+36 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+37 silly placeDep ROOT scheduler@0.27.0 OK for: react-dom@19.2.5 want: ^0.27.0
+38 silly placeDep ROOT react-router@7.14.1 OK for: react-router-dom@7.14.1 want: 7.14.1
+39 silly fetch manifest cookie@^1.0.1
+40 silly packumentCache full:https://registry.npmjs.org/cookie cache-miss
+41 silly fetch manifest set-cookie-parser@^2.6.0
+42 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/cookie 557ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/cookie set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser 874ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/set-cookie-parser set size:undefined disposed:false
+47 silly placeDep ROOT cookie@1.1.1 OK for: react-router@7.14.1 want: ^1.0.1
+48 silly placeDep ROOT set-cookie-parser@2.7.2 OK for: react-router@7.14.1 want: ^2.6.0
+49 silly reify moves {}
+50 silly audit bulk request {
+50 silly audit   autoprefixer: [ '10.5.0' ],
+50 silly audit   'baseline-browser-mapping': [ '2.10.18' ],
+50 silly audit   browserslist: [ '4.28.2' ],
+50 silly audit   'caniuse-lite': [ '1.0.30001788' ],
+50 silly audit   'electron-to-chromium': [ '1.5.336' ],
+50 silly audit   escalade: [ '3.2.0' ],
+50 silly audit   'fraction.js': [ '5.3.4' ],
+50 silly audit   nanoid: [ '3.3.11' ],
+50 silly audit   'node-releases': [ '2.0.37' ],
+50 silly audit   picocolors: [ '1.1.1' ],
+50 silly audit   postcss: [ '8.5.9' ],
+50 silly audit   'postcss-value-parser': [ '4.2.0' ],
+50 silly audit   'source-map-js': [ '1.2.1' ],
+50 silly audit   tailwindcss: [ '4.2.2' ],
+50 silly audit   'update-browserslist-db': [ '1.2.3' ],
+50 silly audit   'react-router-dom': [ '7.14.1' ],
+50 silly audit   react: [ '19.2.5' ],
+50 silly audit   'react-dom': [ '19.2.5' ],
+50 silly audit   scheduler: [ '0.27.0' ],
+50 silly audit   'react-router': [ '7.14.1' ],
+50 silly audit   cookie: [ '1.1.1' ],
+50 silly audit   'set-cookie-parser': [ '2.7.2' ]
+50 silly audit }
+51 http cache set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 1ms (cache hit)
+52 http cache react-router@https://registry.npmjs.org/react-router/-/react-router-7.14.1.tgz 0ms (cache hit)
+53 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz 0ms (cache hit)
+54 http cache react@https://registry.npmjs.org/react/-/react-19.2.5.tgz 0ms (cache hit)
+55 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 0ms (cache hit)
+56 http cache react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.14.1.tgz 0ms (cache hit)
+57 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.5.tgz 0ms (cache hit)
+58 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz. Extracting by manifest.
+59 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-7.14.1.tgz. Extracting by manifest.
+60 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz. Extracting by manifest.
+61 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.14.1.tgz. Extracting by manifest.
+62 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 286ms (cache miss)
+63 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 448ms
+64 silly audit report {}
+65 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.14.1.tgz 900ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-1.1.1.tgz 1235ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-7.14.1.tgz 1981ms (cache miss)
+68 silly ADD node_modules/set-cookie-parser
+69 silly ADD node_modules/cookie
+70 silly ADD node_modules/react-router
+71 silly ADD node_modules/scheduler
+72 silly ADD node_modules/react-dom
+73 silly ADD node_modules/react
+74 silly ADD node_modules/react-router-dom
+75 verbose cwd /data/data/com.termux/files/home
+76 verbose os Linux 6.6.89-android15-8-abA055FXXUEDZB2-4k
+77 verbose node v25.8.2
+78 verbose npm  v11.12.1
+79 verbose exit 0
+80 info ok
